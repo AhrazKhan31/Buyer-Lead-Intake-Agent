@@ -146,7 +146,7 @@ The evaluation pipeline processes all leads in `sample_buyer_inquiries.json` thr
 ### Basic run (uses default file paths)
 
 ```bash
-python -m src.agent.evaluation
+python -m src.eval.evaluation
 ```
 
 ### Custom paths

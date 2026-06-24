@@ -1,0 +1,7 @@
+google-genai>=0.1.0
+streamlit>=1.32.0
+pandas>=2.0.0
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+numpy
+scikit-learn

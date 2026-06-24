@@ -120,6 +120,9 @@ The app opens at `http://localhost:8501` by default.
 
 **First run note:** If you are using `MLSVectorStore` (the production ingestion backend), the app embeds all 206 listings via the Vertex AI embedding API on startup. This takes approximately 1–3 seconds and is cached for the session. Subsequent leads process without re-embedding.
 
+### Live App Link <https://buyer-lead-agent-537062195130.us-central1.run.app/>.
+
+
 ### Switching between ingestion backends
 
 The default `app.py` imports `MLSDataStore` (keyword-based). To switch to the vector backend, update the import in `app.py`:

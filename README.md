@@ -157,27 +157,9 @@ python -m src.agent.evaluation \
 
 ### Output
 
-The pipeline writes a JSON report (default: `evaluation_report.json`) and prints a summary to stdout:
-
-```
-============================================================
-  EVALUATION SUMMARY  —  12 passed / 0 failed
-============================================================
-
-Score averages (out of 5):
-  Faithfulness:  4.58
-  Completeness:  4.75
-  Actionability: 4.42
-
-Performance averages:
-  Avg latency:   18.34s
-  Avg tokens:    3721
-============================================================
-```
-
 **Rate limit note:** The evaluation pipeline processes leads sequentially with adaptive back-off (20s → 40s → 60s on 429 errors). Running all 12 leads takes 3–8 minutes depending on quota.
 
----
+
 
 ## Docker
 
